@@ -1,0 +1,14 @@
+@keyframes animacaonav {
+
+    to{
+        transform: translateX(30px);
+    }
+    from{
+        transform: translateX(-30px);
+    }
+}
+
+.active{
+    transform: rotate(230deg);
+    transition: 1s;
+}
